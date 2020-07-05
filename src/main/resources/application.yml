@@ -1,0 +1,10 @@
+spring:
+    datasource:
+        password: postgres
+        url: jdbc:postgresql://localhost:5432/test
+        username: postgres
+    flyway:
+        enabled: true
+    jpa:
+        hibernate:
+            ddl-auto: validate
